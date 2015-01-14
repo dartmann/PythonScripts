@@ -1,0 +1,3 @@
+finalstructure = {"exam":{"testsuites":[{"testgroups":[{"status":"pass","testcases":[{"status":"pass","name":"Ackermann"},{"status":"pass","name":"Euler"},{"status":"pass","name":"Pi"},{"status":"pass","name":"Prime"}],"name":"Math"},{"status":"pass","testcases":[{"status":"pass","name":"Ascii"},{"status":"pass","name":"Turtle"}],"name":"Drawing"}],"status":"pass","name":"MonitoringServer"}],"status":"green","name":""}}
+#
+print finalstructure

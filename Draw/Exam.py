@@ -1,0 +1,105 @@
+'''
+Created on 15.10.2014
+
+@author: David Artmann
+'''
+import turtle
+from time import sleep
+wn = turtle.Screen()
+wn.__setattr__('-topmost', 1)
+E = turtle.Turtle()
+E.pensize(3)
+E.shape("blank")
+E.speed(7)
+E.color("blue")
+E.up()
+E.setposition(-250, 100)
+X = turtle.Turtle()
+X.pensize(3)
+X.shape("blank")
+X.speed(7)
+X.color("blue")
+X.up()
+X.setposition(-100, 100)
+A = turtle.Turtle()
+A.pensize(3)
+A.shape("blank")
+A.speed(7)
+A.color("blue")
+A.up()
+A.setposition(50, 100)
+M = turtle.Turtle()
+M.pensize(3)
+M.shape("blank")
+M.speed(7)
+M.color("blue")
+M.up()
+M.setposition(200, -100)
+
+def drawE():
+    E.down()
+    E.forward(100)
+    E.up()
+    E.backward(100)
+    E.right(90)
+    E.down()
+    E.forward(100)
+    E.left(90)
+    E.forward(100)
+    E.up()
+    E.backward(100)
+    E.right(90)
+    E.down()
+    E.forward(100)
+    E.left(90)
+    E.forward(100)
+    
+drawE()
+
+def drawX():
+    X.down()
+    X.right(65)
+    X.forward(220)
+    X.up()
+    X.backward(220)
+    X.right(25)
+    X.forward(200)
+    X.left(155)
+    X.down()
+    X.forward(220)
+
+drawX()
+
+def drawA():
+    A.down()
+    A.forward(100)
+    A.right(90)
+    A.forward(200)
+    A.up()
+    A.backward(100)
+    A.right(90)
+    A.down()
+    A.forward(100)
+    A.up()
+    A.right(90)
+    A.forward(100)
+    A.right(180)
+    A.down()
+    A.forward(200)
+    
+drawA()
+
+def drawM():
+    M.left(90)
+    M.down()
+    M.forward(200)
+    M.right(155)
+    M.forward(100)
+    M.left(130)
+    M.forward(100)
+    M.right(155)
+    M.forward(200)
+    
+drawM()
+
+sleep(2)
